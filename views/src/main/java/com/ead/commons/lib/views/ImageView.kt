@@ -9,7 +9,7 @@ fun ImageView.setResourceImageAndColor(resourceId :Int,color : Int) {
 }
 
 fun ImageView.setResourceColor(color: Int) =
-    setImageDrawable(drawable.getMutated(color,context))
+    setImageDrawable(drawable.getMutated(context,color))
 
 
 
